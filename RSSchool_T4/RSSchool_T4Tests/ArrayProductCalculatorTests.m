@@ -20,7 +20,7 @@
 
 - (void)test3 {
     NSInteger sum = [ArrayCalculator maxProductOf:3 itemsFromArray:@[@-1000000, @20, @5, @1, @7, @5]];
-    XCTAssertEqual(sum, 750); // 20 * 5 * 7
+    XCTAssertEqual(sum, 700); // 20 * 5 * 7
 }
 
 
